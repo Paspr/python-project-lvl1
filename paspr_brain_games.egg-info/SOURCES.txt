@@ -1,0 +1,8 @@
+brain_games/__init__.py
+brain_games/scripts/__init__.py
+brain_games/scripts/brain_games.py
+paspr_brain_games.egg-info/PKG-INFO
+paspr_brain_games.egg-info/SOURCES.txt
+paspr_brain_games.egg-info/dependency_links.txt
+paspr_brain_games.egg-info/entry_points.txt
+paspr_brain_games.egg-info/top_level.txt
