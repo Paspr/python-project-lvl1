@@ -11,3 +11,5 @@ This repository contains the first Python project of Hexlet education platform: 
 [![asciicast](https://asciinema.org/a/kakKDr5avAfdY4xyiv5zmvmCc.svg)](https://asciinema.org/a/kakKDr5avAfdY4xyiv5zmvmCc)
 ### Calculator game
 [![asciicast](https://asciinema.org/a/h2R7V75DoIvOz1Ue6Wk2IUqwh.svg)](https://asciinema.org/a/h2R7V75DoIvOz1Ue6Wk2IUqwh)
+### Find the GCD game
+[![asciicast](https://asciinema.org/a/0gBdeqrbhJuosz0eXuTWA4Pnk.svg)](https://asciinema.org/a/0gBdeqrbhJuosz0eXuTWA4Pnk)

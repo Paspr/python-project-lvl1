@@ -78,6 +78,33 @@ def calc():
         counter += 1
 
 
+def gcd():
+    def compute_gcd(operand_a, operand_b):
+        if operand_b == 0:
+            return operand_a
+        else:
+            return compute_gcd(operand_b, operand_a % operand_b)
+
+    player_name = main()
+    print('Find the greatest common divisor of the given numbers.')
+    print()
+    counter = 0
+    while counter < NUMBER_OF_ROUNDS:
+        first_operand = random.randint(1, 100)
+        second_operand = random.randint(1, 100)
+        print(f'Question: {first_operand} {second_operand}')
+        right_answer = compute_gcd(first_operand, second_operand)
+        user_answer = prompt.string('Your answer: ')
+        if user_answer == str(right_answer):
+            print('Correct!')
+            if counter == 2:
+                success(player_name)
+        else:
+            failure(user_answer, right_answer, player_name)
+            break
+        counter += 1
+
+
 def main():
     print('Welcome to the Brain Games!')
     return run()
