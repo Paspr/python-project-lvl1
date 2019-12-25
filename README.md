@@ -13,3 +13,5 @@ This repository contains the first Python project of Hexlet education platform: 
 [![asciicast](https://asciinema.org/a/h2R7V75DoIvOz1Ue6Wk2IUqwh.svg)](https://asciinema.org/a/h2R7V75DoIvOz1Ue6Wk2IUqwh)
 ### Find the GCD game
 [![asciicast](https://asciinema.org/a/0gBdeqrbhJuosz0eXuTWA4Pnk.svg)](https://asciinema.org/a/0gBdeqrbhJuosz0eXuTWA4Pnk)
+### Find the missing progression member game
+[![asciicast](https://asciinema.org/a/CsOXiP018dUYEB0lilCfDf3gs.svg)](https://asciinema.org/a/CsOXiP018dUYEB0lilCfDf3gs)
