@@ -10,4 +10,4 @@ This repository contains the first Python project of Hexlet education platform: 
 ### Even or not game
 [![asciicast](https://asciinema.org/a/kakKDr5avAfdY4xyiv5zmvmCc.svg)](https://asciinema.org/a/kakKDr5avAfdY4xyiv5zmvmCc)
 ### Calculator game
-[![asciicast](https://asciinema.org/a/jRhu7Qd8QO6cPxApfqT0R0SKJ.svg)](https://asciinema.org/a/jRhu7Qd8QO6cPxApfqT0R0SKJ)
+[![asciicast](https://asciinema.org/a/h2R7V75DoIvOz1Ue6Wk2IUqwh.svg)](https://asciinema.org/a/h2R7V75DoIvOz1Ue6Wk2IUqwh)

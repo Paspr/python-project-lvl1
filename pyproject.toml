@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "Paspr_brain_games"
-version = "0.3.2"
+version = "0.3.3"
 description = ""
 authors = ["Pavel Osminin"]
 packages = [
@@ -16,8 +16,8 @@ flake8 = "^3.7.9"
 
 [tool.poetry.scripts]
 brain-games = "brain_games.games.brain_games:main"
-brain-even = "brain_games.scripts.brain-even:main"
-brain-calc = "brain_games.scripts.brain-calc:main"
+brain-even = "brain_games.scripts.brain_even:main"
+brain-calc = "brain_games.scripts.brain_calc:main"
 
 [build-system]
 requires = ["poetry>=0.12"]
