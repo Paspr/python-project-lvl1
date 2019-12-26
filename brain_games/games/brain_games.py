@@ -27,7 +27,7 @@ def even():
         number_guess = random.randint(1, 100)
         print(f'Question: {number_guess}')
         user_answer = prompt.string('Your answer: ')
-        if (number_guess % 2 == 0 and user_answer == 'yes') or\
+        if (number_guess % 2 == 0 and user_answer == 'yes') or \
                 (number_guess % 2 != 0 and user_answer == 'no'):
             print('Correct!')
             if counter == 2:
@@ -54,6 +54,7 @@ def calc():
         elif operation == '-':
             answer = operand_a - operand_b
         return answer
+
     player_name = main()
     print('What is the result of the expression?')
     print()
@@ -134,6 +135,44 @@ def progression():
                 success(player_name)
         else:
             failure(user_answer, missing_number, player_name)
+            break
+        counter += 1
+
+
+def prime():
+    def is_prime(number):
+        isprime = True
+        i = 2
+        if number >= 2:
+            while i < number:
+                if number % i == 0:
+                    isprime = False
+                i += 1
+        else:
+            isprime = False
+        return isprime
+
+    player_name = main()
+    print('Answer "yes" if the given number is prime. Otherwise answer "no".')
+    print()
+    counter = 0
+    while counter < NUMBER_OF_ROUNDS:
+        number_guess = random.randint(1, 350)
+        print(f'Question: {number_guess}')
+        user_answer = prompt.string('Your answer: ')
+        if (is_prime(number_guess) and user_answer == 'yes') or \
+                (not(is_prime(number_guess)) and user_answer == 'no'):
+            print('Correct!')
+            if counter == 2:
+                success(player_name)
+        elif user_answer == 'no':
+            failure('no', 'yes', player_name)
+            break
+        elif user_answer == 'yes':
+            failure('yes', 'no', player_name)
+            break
+        else:
+            wrong_input(player_name)
             break
         counter += 1
 

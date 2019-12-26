@@ -15,3 +15,5 @@ This repository contains the first Python project of Hexlet education platform: 
 [![asciicast](https://asciinema.org/a/0gBdeqrbhJuosz0eXuTWA4Pnk.svg)](https://asciinema.org/a/0gBdeqrbhJuosz0eXuTWA4Pnk)
 ### Find the missing progression member game
 [![asciicast](https://asciinema.org/a/CsOXiP018dUYEB0lilCfDf3gs.svg)](https://asciinema.org/a/CsOXiP018dUYEB0lilCfDf3gs)
+### Prime or not game
+[![asciicast](https://asciinema.org/a/hH1usp3pxHyljWOSP0t9JPgMR.svg)](https://asciinema.org/a/hH1usp3pxHyljWOSP0t9JPgMR)
