@@ -1,11 +1,15 @@
 [tool.poetry]
 name = "Paspr_brain_games"
-version = "0.6.3"
-description = ""
-authors = ["Pavel Osminin"]
+version = "0.7.3"
+description = "Several logic games running in the terminal."
+authors = ["Pavel Osminin <gauss_89@mail.ru>"]
 packages = [
     { include = "brain_games" },
 ]
+classifiers = [
+"Topic :: Games/Entertainment :: Puzzle Games"
+]
+repository = "https://github.com/Paspr/python-project-lvl1"
 
 [tool.poetry.dependencies]
 python = "^3.6"
