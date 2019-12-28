@@ -17,7 +17,6 @@ def prime():
         else:
             isprime = False
         return isprime
-    
     greeting()
     player_name = run()
     print('Answer "yes" if the given number is prime. Otherwise answer "no".')

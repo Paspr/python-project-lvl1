@@ -1,5 +1,5 @@
 from brain_games.cli import run, prompt
-from brain_games.engine import greeting, failure, success, wrong_input
+from brain_games.engine import greeting, failure, success
 import random
 
 NUMBER_OF_ROUNDS = 3
@@ -16,7 +16,7 @@ def calc():
             answer = operand_a - operand_b
         return answer
 
-    greeting() 
+    greeting()
     player_name = run()
     print('What is the result of the expression?')
     print()
