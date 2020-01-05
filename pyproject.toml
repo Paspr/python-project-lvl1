@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "Paspr_brain_games"
-version = "0.8.3"
+version = "0.8.4"
 description = "Several logic games running in the terminal."
 authors = ["Pavel Osminin <gauss_89@mail.ru>"]
 packages = [
