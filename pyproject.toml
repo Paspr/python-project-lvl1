@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "Paspr_brain_games"
-version = "0.8.4"
+version = "0.8.5"
 description = "Several logic games running in the terminal."
 authors = ["Pavel Osminin <gauss_89@mail.ru>"]
 packages = [
@@ -19,7 +19,6 @@ prompt = "^0.4.1"
 flake8 = "^3.7.9"
 
 [tool.poetry.scripts]
-brain-games = "brain_games.games.brain_games:main"
 brain-even = "brain_games.scripts.brain_even:main"
 brain-calc = "brain_games.scripts.brain_calc:main"
 brain-gcd = "brain_games.scripts.brain_gcd:main"

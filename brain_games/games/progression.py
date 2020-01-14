@@ -1,8 +1,7 @@
 import random
 
 
-def greeting_progression():
-    print('What number is missing in the progression?')
+RULES = 'What number is missing in the progression?'
 
 
 def generate_question():
@@ -11,27 +10,15 @@ def generate_question():
     position = random.randint(0, 8)
     difference = random.randint(1, 10)
     missing_number = first + (position + 1) * difference
-    generate_question.answer = missing_number
+    generate_question.answer = str(missing_number)
     counter_progression = 0
-    question = (first,)
+    question = f'{first}' + ' '
     while counter_progression < length - 1:
         if counter_progression == position:
-            question = question + ('..',)
+            question = question + '..' + ' '
             first += difference
         else:
             first += difference
-            question = question + (first,)
+            question = question + f'{first}' + ' '
         counter_progression += 1
     return question
-
-
-def check_answer(question, user_answer):
-    return question == user_answer
-
-
-def progression():
-    print('What number is missing in the progression?')
-
-
-if __name__ == '__main__':
-    progression()

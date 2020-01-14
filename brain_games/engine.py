@@ -20,29 +20,18 @@ def run_game(game_name):
     greeting()
     player_name = run()
     print()
-    if game_name.__name__ == 'brain_games.games.brain_even':
-        game_name.greeting_even()
-    elif game_name.__name__ == 'brain_games.games.brain_calc':
-        game_name.greeting_calc()
-    elif game_name.__name__ == 'brain_games.games.brain_gcd':
-        game_name.greeting_gcd()
-    elif game_name.__name__ == 'brain_games.games.brain_progression':
-        game_name.greeting_progression()
-    elif game_name.__name__ == 'brain_games.games.brain_prime':
-        game_name.greeting_prime()
+    print(game_name.RULES)
     counter = 0
     while counter < NUMBER_OF_ROUNDS:
         question = game_name.generate_question()
-        answer = str(game_name.generate_question.answer)
-        for item in question:
-            print(item, end=' ')
-        print()
+        answer = game_name.generate_question.answer
+        print(question)
         user_answer = prompt.string('Your answer: ')
-        if game_name.check_answer(answer, user_answer):
-            print('Correct!')
-            if counter == 2:
-                success(player_name)
-        else:
+        if not (answer == user_answer):
             failure(user_answer, answer, player_name)
             break
+        else:
+            print('Correct!')
+        if counter == 2:
+            success(player_name)
         counter += 1
