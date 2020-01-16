@@ -7,8 +7,8 @@ RULES = 'Answer "yes" if the given number is prime. Otherwise answer "no".'
 
 def generate_question():
     random_number = random.randint(1, 100)
-    generate_question.answer = 'yes' if is_prime(random_number) else 'no'
-    return random_number
+    answer = 'yes' if is_prime(random_number) else 'no'
+    return random_number, answer
 
 
 def is_prime(number):

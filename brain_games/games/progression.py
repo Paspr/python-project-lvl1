@@ -10,15 +10,15 @@ def generate_question():
     position = random.randint(0, 8)
     difference = random.randint(1, 10)
     missing_number = first + (position + 1) * difference
-    generate_question.answer = str(missing_number)
+    answer = str(missing_number)
     counter_progression = 0
     question = f'{first}' + ' '
     while counter_progression < length - 1:
+        first += difference
         if counter_progression == position:
-            question = question + '..' + ' '
-            first += difference
+            string_char = '..'
         else:
-            first += difference
-            question = question + f'{first}' + ' '
+            string_char = str(first)
+        question = question + string_char + ' '
         counter_progression += 1
-    return question
+    return question, answer

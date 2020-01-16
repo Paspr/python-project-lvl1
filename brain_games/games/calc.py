@@ -3,15 +3,15 @@ import operator
 
 
 RULES = 'What is the result of the expression?'
+OPERATIONS = (('*', operator.mul), (
+        '-', operator.sub), ('+', operator.add))
 
 
 def generate_question():
-    operations_tuple = (('*', operator.mul), (
-        '-', operator.sub), ('+', operator.add))
-    current_operation = random.choice(operations_tuple)
+    operation_sign, operation_operator = random.choice(OPERATIONS)
     first_operand = random.randint(1, 100)
     second_operand = random.randint(1, 100)
-    generate_question.answer = str(current_operation[1](
+    answer = str(operation_operator(
         first_operand, second_operand))
-    question = f'{first_operand} {current_operation[0]} {second_operand}'
-    return question
+    question = f'{first_operand} {operation_sign} {second_operand}'
+    return question, answer
