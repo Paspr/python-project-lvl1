@@ -1,5 +1,5 @@
 import random
-import math
+from math import factorial
 
 
 RULES = 'Answer "yes" if the given number is prime. Otherwise answer "no".'
@@ -12,12 +12,4 @@ def generate_question():
 
 
 def is_prime(number):
-    if number == 2:
-        return True
-    if number % 2 == 0 or number <= 1:
-        return False
-    sqr = int(math.sqrt(number)) + 1
-    for divisor in range(3, sqr, 2):
-        if number % divisor == 0:
-            return False
-    return True
+    return factorial(number - 1)  % number == number - 1
