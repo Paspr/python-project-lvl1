@@ -1,7 +1,6 @@
 # Mind Games
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/be225e9af4965442ffb3/maintainability)](https://codeclimate.com/github/Paspr/python-project-lvl1/maintainability)
-[![Test Coverage](https://api.codeclimate.com/v1/badges/be225e9af4965442ffb3/test_coverage)](https://codeclimate.com/github/Paspr/python-project-lvl1/test_coverage)
 [![Build Status](https://travis-ci.org/Paspr/python-project-lvl1.svg?branch=master)](https://travis-ci.org/Paspr/python-project-lvl1)
 
 This repository contains the first Python project of Hexlet education platform: a bunch of logic games running in the terminal.
