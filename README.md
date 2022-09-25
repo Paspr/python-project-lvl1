@@ -3,7 +3,7 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/be225e9af4965442ffb3/maintainability)](https://codeclimate.com/github/Paspr/python-project-lvl1/maintainability)
 [![Build Status](https://travis-ci.org/Paspr/python-project-lvl1.svg?branch=master)](https://travis-ci.org/Paspr/python-project-lvl1)
 
-This repository contains a bunch of logic games running in the terminal.
+This repository contains several logic command-line games.
 
 ## Installation and running
 ### Even or not game
